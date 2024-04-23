@@ -5,6 +5,26 @@
   font-family: Roboto, sans-serif;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 a{
   text-decoration: none;
 }
@@ -63,12 +83,12 @@ a{
   /* flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 200px; */
-  flex: 1 1 200px;
+  /* flex: 1 1 200px; */
   /*flex-grow flex-shrink flex-basis*/    
-  margin: 10px;
+  /* margin: 10px;
 }
 
 .pets figure img{
   max-width: 100%;
   display: block;
-}
+} */
