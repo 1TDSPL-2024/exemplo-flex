@@ -17,17 +17,17 @@ a{
   height: 120px;
   align-items: center;
   padding: 20px;
-  
 }
 
 .topo h1{
   color: #fff;
+
 }
 
 .topo nav ul{
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  
 }
 
 .link{
@@ -56,16 +56,11 @@ a{
   flex-wrap: wrap;
   max-width: 800px;
   margin: 0 auto;
-  
 }
 
 .pets figure{
-  /* flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 200px; */
-  flex: 1 1 200px;
-  /*flex-grow flex-shrink flex-basis*/    
-  margin: 10px;
+   flex: 1 1 200px;  /*flex-grow ; flex-shrink ; flex-basis */
+   margin: 10px;
 }
 
 .pets figure img{
