@@ -74,3 +74,32 @@
 
 
     }
+
+    .container {
+      display: grid;
+      background-color: burlywood;
+      grid-template-columns: 150px 150px 150px;
+      grid-template-rows: 150px 150px 150px;
+      /*column-gap: 5px;
+      row-gap: 5px;*/
+      gap: 20px;
+      height: 500px ;
+      justify-content: center;
+      align-content: center;
+
+    }
+
+    .container :nth-child(5){
+      background-color: red;
+      align-self: flex-end;
+      justify-self: end;
+
+    }
+
+    .box {
+      background-color: blueviolet;
+      border: 1px solid #0000ff;
+      text-align: center;
+      color: #fff;
+
+    }
