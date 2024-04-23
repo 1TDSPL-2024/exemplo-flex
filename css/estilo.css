@@ -46,3 +46,29 @@ a{
   background-color: tomato;
 }
 
+#titulo{
+  text-align: center;
+  margin: 3%;
+}
+
+.pets{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+.pets figure{
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 200px; */
+  flex: 1 1 200px;
+  /*flex-grow flex-shrink flex-basis*/    
+  margin: 10px;
+}
+
+.pets figure img{
+  max-width: 100%;
+  display: block;
+}
