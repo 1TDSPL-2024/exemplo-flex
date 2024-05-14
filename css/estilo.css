@@ -24,9 +24,33 @@ body{
   justify-content:left;
   align-content: center;
 
+  grid-template-areas: 
+  'header header'
+  'content-1 login'
+  'content-2 login'
+  'footer footer';
 }
 
 
+.header{
+  grid-area: header;
+}
+
+.content-1{
+  grid-area: content-1;
+}
+.content-2{
+  grid-area: content-2;
+}
+
+.login{
+  grid-area: login;
+}
+
+.footer{
+  grid-area: footer;
+}
+/* 
 .container :nth-child(1){
   grid-column: span 2;
 }
@@ -71,7 +95,7 @@ body{
   .box{
     font-size: 1rem !important;
   }
-}
+} */
 
 
 /* .container :nth-child(5){
