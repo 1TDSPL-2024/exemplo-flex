@@ -5,6 +5,134 @@
   font-family: Roboto, sans-serif;
 }
 
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+}
+
+
+.container{
+  display: grid;
+  background-color: burlywood;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 20px;
+  height: 100vh;
+  justify-content:left;
+  align-content: center;
+
+  grid-template-areas: 
+  'header header'
+  'content-1 login'
+  'content-2 login'
+  'footer footer'
+  ;
+}
+
+.header{
+  grid-area: header;
+}
+
+.content-1{
+  grid-area: content-1;
+}
+
+.content-2{
+  grid-area: content-2;
+}
+
+.login{
+  grid-area: login;
+}
+
+.footer{
+  grid-area: footer;
+}
+
+
+
+/* 
+.container :nth-child(1){
+  grid-column: span 2;
+}
+
+.container :nth-child(2){
+  grid-column: span 1;
+}
+
+.container :nth-child(4){
+  grid-column: span 1;
+}
+
+.container :nth-child(3){
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.container :nth-child(5){
+  grid-column: span 2;
+}
+
+@media screen and (max-width:940px){
+  
+  .container{
+    grid-template-rows: repeat(5,1fr);
+  }
+
+  .container :nth-child(2){
+    grid-column: span 2;
+  }
+  .container :nth-child(3){
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  .container :nth-child(4){
+    grid-column: span 2;
+  }  
+  
+}
+
+@media screen and (max-width:615px) {
+  .box{
+    font-size: 1rem !important;
+  }
+} */
+
+
+/* .container :nth-child(5){
+  background-color: red;
+  align-self: flex-end;
+  justify-self: end;
+} */
+
+.box{
+  background-color: blueviolet;
+  border: 1px solid #0000ff;
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 a{
   text-decoration: none;
 }
@@ -17,17 +145,17 @@ a{
   height: 120px;
   align-items: center;
   padding: 20px;
+  
 }
 
 .topo h1{
   color: #fff;
-
 }
 
 .topo nav ul{
   list-style: none;
   display: flex;
-  
+  flex-wrap: wrap;
 }
 
 .link{
@@ -56,14 +184,19 @@ a{
   flex-wrap: wrap;
   max-width: 800px;
   margin: 0 auto;
+  
 }
 
 .pets figure{
-   flex: 1 1 200px;  /*flex-grow ; flex-shrink ; flex-basis */
-   margin: 10px;
+  /* flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 200px; */
+  /* flex: 1 1 200px; */
+  /*flex-grow flex-shrink flex-basis*/    
+  /* margin: 10px;
 }
 
 .pets figure img{
   max-width: 100%;
   display: block;
-}
+} */
