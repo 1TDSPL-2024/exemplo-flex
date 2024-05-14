@@ -50,6 +50,23 @@ body{
 .footer{
   grid-area: footer;
 }
+
+@media screen and (max-width:940px){
+
+  .container{
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: 
+  'header header'
+  'content-1 content-1'
+  'content-2 content-2'
+  'login login'
+  'footer footer';
+}
+  }
+  
+
+
+
 /* 
 .container :nth-child(1){
   grid-column: span 2;
